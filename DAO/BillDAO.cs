@@ -118,5 +118,38 @@ namespace CarApp.DAO
 
             return row > 0;
         }
+
+        public static List<DailyPriceInfo> getDailyPrices(int selectedYear, int selectedMonth)
+        {
+            List<DailyPriceInfo> dailyPrices = new List<DailyPriceInfo>();
+
+            SqlConnection conn = Database.Database.GetDatabase();
+            conn.Open();
+
+            // Thực hiện truy vấn để lấy giá trị Total_price, SỐ LƯỢNG (khác nhau) CustomerID, và SỐ LƯỢNG (khác nhau) CarID của từng ngày trong tháng
+            SqlCommand cmd = new SqlCommand("SELECT DATEPART(WEEK, TimeStart) AS WeekNumber, SUM(Total_price) AS TotalPrice, COUNT(DISTINCT CustomerID) AS CustomerCount, COUNT(DISTINCT CarID) AS CarCount FROM Bill WHERE YEAR(TimeStart) = @SelectedYear AND MONTH(TimeStart) = @SelectedMonth GROUP BY DATEPART(WEEK, TimeStart) ORDER BY WeekNumber", conn);
+
+            cmd.Parameters.AddWithValue("@SelectedYear", selectedYear);
+            cmd.Parameters.AddWithValue("@SelectedMonth", selectedMonth);
+
+            SqlDataReader reader = cmd.ExecuteReader();
+
+            while (reader.Read())
+            {
+                DailyPriceInfo dailyPriceInfo = new DailyPriceInfo();
+                dailyPriceInfo.TotalPrice = Convert.ToDouble(reader["TotalPrice"]);
+                dailyPriceInfo.CustomerCount = Convert.ToDouble(reader["CustomerCount"]);
+                dailyPriceInfo.CarCount = Convert.ToDouble(reader["CarCount"]);
+
+                dailyPrices.Add(dailyPriceInfo);
+            }
+
+            conn.Close();
+
+            return dailyPrices;
+        }
+
+
+
     }
 }

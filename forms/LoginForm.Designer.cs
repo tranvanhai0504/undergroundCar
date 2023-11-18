@@ -46,12 +46,11 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Black", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(205, 45);
+            label1.Location = new Point(179, 34);
             label1.Name = "label1";
-            label1.Size = new Size(273, 41);
+            label1.Size = new Size(215, 32);
             label1.TabIndex = 0;
             label1.Text = "Underground Car";
-            label1.Click += label1_Click;
             // 
             // panel1
             // 
@@ -66,9 +65,10 @@
             panel1.Controls.Add(txtb_pwd);
             panel1.Controls.Add(txtb_username);
             panel1.Controls.Add(label1);
-            panel1.Location = new Point(91, 58);
+            panel1.Location = new Point(80, 44);
+            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(608, 331);
+            panel1.Size = new Size(532, 248);
             panel1.TabIndex = 1;
             // 
             // label4
@@ -76,9 +76,9 @@
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
             label4.ForeColor = Color.FromArgb(0, 91, 65);
-            label4.Location = new Point(264, 86);
+            label4.Location = new Point(231, 64);
             label4.Name = "label4";
-            label4.Size = new Size(126, 17);
+            label4.Size = new Size(110, 13);
             label4.TabIndex = 8;
             label4.Text = "The car all you need";
             // 
@@ -86,9 +86,10 @@
             // 
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(135, 36);
+            pictureBox1.Location = new Point(118, 27);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(64, 71);
+            pictureBox1.Size = new Size(56, 53);
             pictureBox1.TabIndex = 7;
             pictureBox1.TabStop = false;
             // 
@@ -98,9 +99,10 @@
             btn_submit.Cursor = Cursors.Hand;
             btn_submit.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btn_submit.ForeColor = SystemColors.ButtonHighlight;
-            btn_submit.Location = new Point(229, 242);
+            btn_submit.Location = new Point(200, 182);
+            btn_submit.Margin = new Padding(3, 2, 3, 2);
             btn_submit.Name = "btn_submit";
-            btn_submit.Size = new Size(181, 49);
+            btn_submit.Size = new Size(158, 37);
             btn_submit.TabIndex = 5;
             btn_submit.Text = "Login";
             btn_submit.UseVisualStyleBackColor = false;
@@ -111,9 +113,9 @@
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label3.ForeColor = Color.FromArgb(0, 129, 112);
-            label3.Location = new Point(134, 194);
+            label3.Location = new Point(117, 146);
             label3.Name = "label3";
-            label3.Size = new Size(76, 20);
+            label3.Size = new Size(59, 15);
             label3.TabIndex = 4;
             label3.Text = "Password";
             // 
@@ -122,36 +124,39 @@
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label2.ForeColor = Color.FromArgb(0, 129, 112);
-            label2.Location = new Point(130, 147);
+            label2.Location = new Point(114, 110);
             label2.Name = "label2";
-            label2.Size = new Size(80, 20);
+            label2.Size = new Size(64, 15);
             label2.TabIndex = 3;
             label2.Text = "Username";
-            label2.Click += label2_Click;
             // 
             // txtb_pwd
             // 
-            txtb_pwd.Location = new Point(216, 191);
+            txtb_pwd.Location = new Point(189, 143);
+            txtb_pwd.Margin = new Padding(3, 2, 3, 2);
             txtb_pwd.Name = "txtb_pwd";
-            txtb_pwd.Size = new Size(262, 27);
+            txtb_pwd.Size = new Size(230, 23);
             txtb_pwd.TabIndex = 2;
             txtb_pwd.UseSystemPasswordChar = true;
             // 
             // txtb_username
             // 
-            txtb_username.Location = new Point(216, 144);
+            txtb_username.Location = new Point(189, 108);
+            txtb_username.Margin = new Padding(3, 2, 3, 2);
             txtb_username.Name = "txtb_username";
-            txtb_username.Size = new Size(262, 27);
+            txtb_username.Size = new Size(230, 23);
             txtb_username.TabIndex = 1;
             // 
             // LoginForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
             BackgroundImageLayout = ImageLayout.Center;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(700, 338);
             Controls.Add(panel1);
+            Margin = new Padding(3, 2, 3, 2);
+            MaximizeBox = false;
             Name = "LoginForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Đăng nhập";

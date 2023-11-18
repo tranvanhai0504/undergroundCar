@@ -840,9 +840,16 @@
           }
         }
       },
-      "UI2.Guna.Winforms/2.0.4.9": {
-        "dependencies": {
-          "Guna.UI2.WinForms": "2.0.4.5"
+      "WinForms.DataVisualization/1.9.1": {
+        "runtime": {
+          "lib/net6.0-windows7.0/WinForms.DataVisualization.Utilities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.9.1.0"
+          },
+          "lib/net6.0-windows7.0/WinForms.DataVisualization.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.9.1.0"
+          }
         }
       }
     }
@@ -1310,12 +1317,12 @@
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
-    "UI2.Guna.Winforms/2.0.4.9": {
+    "WinForms.DataVisualization/1.9.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wrFvvWtcKkjm+ebQTBj+l4H0f6WyuV1iVV2U3nNhchuakuv6IT3WoyGrbxN2ZWisJ6AiSAmgONB2Jfwwj+AvBQ==",
-      "path": "ui2.guna.winforms/2.0.4.9",
-      "hashPath": "ui2.guna.winforms.2.0.4.9.nupkg.sha512"
+      "sha512": "sha512-/mKuUVwHYg0EpcjJbuvU5eGY8QGFB4iUMVEl0inHE5iF1fG/NK1dRR2sL26QDnv1wG0dnpuhE3jO5ktKQlvEGg==",
+      "path": "winforms.datavisualization/1.9.1",
+      "hashPath": "winforms.datavisualization.1.9.1.nupkg.sha512"
     }
   }
 }

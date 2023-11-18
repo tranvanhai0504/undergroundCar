@@ -1186,10 +1186,23 @@
           }
         }
       },
-      "UI2.Guna.Winforms/2.0.4.9": {
+      "WinForms.DataVisualization/1.9.1": {
         "type": "package",
-        "dependencies": {
-          "Guna.UI2.WinForms": "2.0.4.5"
+        "compile": {
+          "lib/net6.0-windows7.0/WinForms.DataVisualization.Utilities.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net6.0-windows7.0/WinForms.DataVisualization.dll": {
+            "related": ".pdb;.Utilities.pdb;.Utilities.xml;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/WinForms.DataVisualization.Utilities.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net6.0-windows7.0/WinForms.DataVisualization.dll": {
+            "related": ".pdb;.Utilities.pdb;.Utilities.xml;.xml"
+          }
         }
       }
     }
@@ -3167,46 +3180,75 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "UI2.Guna.Winforms/2.0.4.9": {
-      "sha512": "wrFvvWtcKkjm+ebQTBj+l4H0f6WyuV1iVV2U3nNhchuakuv6IT3WoyGrbxN2ZWisJ6AiSAmgONB2Jfwwj+AvBQ==",
+    "WinForms.DataVisualization/1.9.1": {
+      "sha512": "/mKuUVwHYg0EpcjJbuvU5eGY8QGFB4iUMVEl0inHE5iF1fG/NK1dRR2sL26QDnv1wG0dnpuhE3jO5ktKQlvEGg==",
       "type": "package",
-      "path": "ui2.guna.winforms/2.0.4.9",
+      "path": "winforms.datavisualization/1.9.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "LICENSE.txt",
-        "build/Guna.V2.Forms.targets",
-        "icon.png",
-        "ui2.guna.winforms.2.0.4.9.nupkg.sha512",
-        "ui2.guna.winforms.nuspec"
+        "Icon.png",
+        "NuGetReadme.md",
+        "lib/net6.0-windows7.0/Design/WinForms/Server/WinForms.DataVisualization.Designer.ClientServerProtocol.dll",
+        "lib/net6.0-windows7.0/Design/WinForms/Server/WinForms.DataVisualization.Designer.Server.dll",
+        "lib/net6.0-windows7.0/Design/WinForms/Server/WinForms.DataVisualization.Utilities.dll",
+        "lib/net6.0-windows7.0/Design/WinForms/WinForms.DataVisualization.Designer.Client.dll",
+        "lib/net6.0-windows7.0/Design/WinForms/WinForms.DataVisualization.Designer.ClientServerProtocol.dll",
+        "lib/net6.0-windows7.0/Design/WinForms/WinForms.DataVisualization.Utilities.dll",
+        "lib/net6.0-windows7.0/WinForms.DataVisualization.Utilities.dll",
+        "lib/net6.0-windows7.0/WinForms.DataVisualization.Utilities.pdb",
+        "lib/net6.0-windows7.0/WinForms.DataVisualization.Utilities.xml",
+        "lib/net6.0-windows7.0/WinForms.DataVisualization.dll",
+        "lib/net6.0-windows7.0/WinForms.DataVisualization.pdb",
+        "lib/net6.0-windows7.0/WinForms.DataVisualization.xml",
+        "lib/net7.0-windows7.0/Design/WinForms/Server/WinForms.DataVisualization.Designer.ClientServerProtocol.dll",
+        "lib/net7.0-windows7.0/Design/WinForms/Server/WinForms.DataVisualization.Designer.Server.dll",
+        "lib/net7.0-windows7.0/Design/WinForms/Server/WinForms.DataVisualization.Utilities.dll",
+        "lib/net7.0-windows7.0/Design/WinForms/WinForms.DataVisualization.Designer.Client.dll",
+        "lib/net7.0-windows7.0/Design/WinForms/WinForms.DataVisualization.Designer.ClientServerProtocol.dll",
+        "lib/net7.0-windows7.0/Design/WinForms/WinForms.DataVisualization.Utilities.dll",
+        "lib/net7.0-windows7.0/WinForms.DataVisualization.Utilities.dll",
+        "lib/net7.0-windows7.0/WinForms.DataVisualization.Utilities.pdb",
+        "lib/net7.0-windows7.0/WinForms.DataVisualization.Utilities.xml",
+        "lib/net7.0-windows7.0/WinForms.DataVisualization.dll",
+        "lib/net7.0-windows7.0/WinForms.DataVisualization.pdb",
+        "lib/net7.0-windows7.0/WinForms.DataVisualization.xml",
+        "winforms.datavisualization.1.9.1.nupkg.sha512",
+        "winforms.datavisualization.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "BCrypt.Net >= 0.1.0",
+      "Guna.UI2.WinForms >= 2.0.4.5",
       "Microsoft.Data.SqlClient >= 5.1.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.13",
       "Microsoft.Office.Interop.Excel >= 15.0.4795.1001",
       "System.Data.SqlClient >= 4.8.5",
       "System.Web.Services.Description >= 6.2.0",
-      "UI2.Guna.Winforms >= 2.0.4.9"
+      "WinForms.DataVisualization >= 1.9.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\ADMIN\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\CarApp\\CarApp.csproj",
+      "projectUniqueName": "D:\\TDTU\\dotNet\\GK\\undergroundCar\\CarApp.csproj",
       "projectName": "CarApp",
-      "projectPath": "C:\\Users\\user\\source\\repos\\CarApp\\CarApp.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\repos\\CarApp\\obj\\",
+      "projectPath": "D:\\TDTU\\dotNet\\GK\\undergroundCar\\CarApp.csproj",
+      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+      "outputPath": "D:\\TDTU\\dotNet\\GK\\undergroundCar\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3214,6 +3256,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3236,6 +3279,10 @@
             "target": "Package",
             "version": "[0.1.0, )"
           },
+          "Guna.UI2.WinForms": {
+            "target": "Package",
+            "version": "[2.0.4.5, )"
+          },
           "Microsoft.Data.SqlClient": {
             "target": "Package",
             "version": "[5.1.2, )"
@@ -3256,9 +3303,9 @@
             "target": "Package",
             "version": "[6.2.0, )"
           },
-          "UI2.Guna.Winforms": {
+          "WinForms.DataVisualization": {
             "target": "Package",
-            "version": "[2.0.4.9, )"
+            "version": "[1.9.1, )"
           }
         },
         "imports": [
@@ -3280,7 +3327,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   },

@@ -65,9 +65,9 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.FromArgb(0, 91, 65);
-            label1.Location = new Point(63, 93);
+            label1.Location = new Point(55, 70);
             label1.Name = "label1";
-            label1.Size = new Size(204, 31);
+            label1.Size = new Size(168, 25);
             label1.TabIndex = 0;
             label1.Text = "Thêm khách hàng";
             // 
@@ -83,13 +83,14 @@
             txt_name.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txt_name.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             txt_name.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txt_name.Location = new Point(36, 199);
+            txt_name.Location = new Point(32, 149);
+            txt_name.Margin = new Padding(3, 2, 3, 2);
             txt_name.Name = "txt_name";
             txt_name.PasswordChar = '\0';
             txt_name.PlaceholderText = "";
             txt_name.SelectedText = "";
             txt_name.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            txt_name.Size = new Size(637, 45);
+            txt_name.Size = new Size(557, 34);
             txt_name.TabIndex = 1;
             // 
             // label2
@@ -97,9 +98,9 @@
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             label2.ForeColor = Color.FromArgb(0, 91, 65);
-            label2.Location = new Point(36, 163);
+            label2.Location = new Point(32, 122);
             label2.Name = "label2";
-            label2.Size = new Size(63, 23);
+            label2.Size = new Size(51, 19);
             label2.TabIndex = 2;
             label2.Text = "Họ tên";
             // 
@@ -108,9 +109,9 @@
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             label3.ForeColor = Color.FromArgb(0, 91, 65);
-            label3.Location = new Point(36, 255);
+            label3.Location = new Point(32, 191);
             label3.Name = "label3";
-            label3.Size = new Size(111, 23);
+            label3.Size = new Size(93, 19);
             label3.TabIndex = 4;
             label3.Text = "Số điện thoại";
             // 
@@ -126,13 +127,14 @@
             txt_phone.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txt_phone.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             txt_phone.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txt_phone.Location = new Point(36, 291);
+            txt_phone.Location = new Point(32, 218);
+            txt_phone.Margin = new Padding(3, 2, 3, 2);
             txt_phone.Name = "txt_phone";
             txt_phone.PasswordChar = '\0';
             txt_phone.PlaceholderText = "";
             txt_phone.SelectedText = "";
             txt_phone.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            txt_phone.Size = new Size(637, 45);
+            txt_phone.Size = new Size(557, 34);
             txt_phone.TabIndex = 3;
             // 
             // label4
@@ -140,9 +142,9 @@
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             label4.ForeColor = Color.FromArgb(0, 91, 65);
-            label4.Location = new Point(36, 355);
+            label4.Location = new Point(32, 266);
             label4.Name = "label4";
-            label4.Size = new Size(51, 23);
+            label4.Size = new Size(43, 19);
             label4.TabIndex = 6;
             label4.Text = "Email";
             // 
@@ -158,13 +160,14 @@
             txt_mail.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txt_mail.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             txt_mail.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txt_mail.Location = new Point(36, 391);
+            txt_mail.Location = new Point(32, 293);
+            txt_mail.Margin = new Padding(3, 2, 3, 2);
             txt_mail.Name = "txt_mail";
             txt_mail.PasswordChar = '\0';
             txt_mail.PlaceholderText = "";
             txt_mail.SelectedText = "";
             txt_mail.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            txt_mail.Size = new Size(637, 45);
+            txt_mail.Size = new Size(557, 34);
             txt_mail.TabIndex = 5;
             // 
             // label5
@@ -172,9 +175,9 @@
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             label5.ForeColor = Color.FromArgb(0, 91, 65);
-            label5.Location = new Point(36, 455);
+            label5.Location = new Point(32, 341);
             label5.Name = "label5";
-            label5.Size = new Size(62, 23);
+            label5.Size = new Size(53, 19);
             label5.TabIndex = 8;
             label5.Text = "Địa chỉ";
             // 
@@ -190,13 +193,14 @@
             txt_address.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txt_address.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             txt_address.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txt_address.Location = new Point(36, 491);
+            txt_address.Location = new Point(32, 368);
+            txt_address.Margin = new Padding(3, 2, 3, 2);
             txt_address.Name = "txt_address";
             txt_address.PasswordChar = '\0';
             txt_address.PlaceholderText = "";
             txt_address.SelectedText = "";
             txt_address.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            txt_address.Size = new Size(637, 45);
+            txt_address.Size = new Size(557, 34);
             txt_address.TabIndex = 7;
             // 
             // guna2Button1
@@ -210,10 +214,11 @@
             guna2Button1.FillColor = Color.FromArgb(0, 91, 65);
             guna2Button1.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             guna2Button1.ForeColor = Color.White;
-            guna2Button1.Location = new Point(743, 489);
+            guna2Button1.Location = new Point(650, 367);
+            guna2Button1.Margin = new Padding(3, 2, 3, 2);
             guna2Button1.Name = "guna2Button1";
             guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            guna2Button1.Size = new Size(326, 45);
+            guna2Button1.Size = new Size(285, 34);
             guna2Button1.TabIndex = 9;
             guna2Button1.Text = "Xác nhận";
             guna2Button1.Click += guna2Button1_Click;
@@ -223,9 +228,9 @@
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
             label6.ForeColor = Color.FromArgb(0, 91, 65);
-            label6.Location = new Point(766, 93);
+            label6.Location = new Point(670, 70);
             label6.Name = "label6";
-            label6.Size = new Size(213, 31);
+            label6.Size = new Size(177, 25);
             label6.TabIndex = 10;
             label6.Text = "Chọn từ danh sách";
             // 
@@ -234,9 +239,9 @@
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             label7.ForeColor = Color.FromArgb(0, 91, 65);
-            label7.Location = new Point(743, 134);
+            label7.Location = new Point(650, 100);
             label7.Name = "label7";
-            label7.Size = new Size(185, 23);
+            label7.Size = new Size(150, 19);
             label7.TabIndex = 11;
             label7.Text = "Danh sách khách hàng";
             // 
@@ -263,12 +268,13 @@
             dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
             guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             guna2DataGridView1.GridColor = Color.FromArgb(231, 229, 255);
-            guna2DataGridView1.Location = new Point(743, 173);
+            guna2DataGridView1.Location = new Point(650, 130);
+            guna2DataGridView1.Margin = new Padding(3, 2, 3, 2);
             guna2DataGridView1.Name = "guna2DataGridView1";
             guna2DataGridView1.RowHeadersVisible = false;
             guna2DataGridView1.RowHeadersWidth = 51;
             guna2DataGridView1.RowTemplate.Height = 29;
-            guna2DataGridView1.Size = new Size(357, 285);
+            guna2DataGridView1.Size = new Size(312, 214);
             guna2DataGridView1.TabIndex = 12;
             guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
             guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -298,9 +304,9 @@
             txt_notice.AutoSize = true;
             txt_notice.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             txt_notice.ForeColor = Color.FromArgb(0, 91, 65);
-            txt_notice.Location = new Point(743, 28);
+            txt_notice.Location = new Point(650, 21);
             txt_notice.Name = "txt_notice";
-            txt_notice.Size = new Size(188, 23);
+            txt_notice.Size = new Size(154, 19);
             txt_notice.TabIndex = 13;
             txt_notice.Text = "Khách hàng đang chọn";
             // 
@@ -308,9 +314,10 @@
             // 
             radioButton_case1.AutoSize = true;
             radioButton_case1.Checked = true;
-            radioButton_case1.Location = new Point(40, 103);
+            radioButton_case1.Location = new Point(35, 77);
+            radioButton_case1.Margin = new Padding(3, 2, 3, 2);
             radioButton_case1.Name = "radioButton_case1";
-            radioButton_case1.Size = new Size(17, 16);
+            radioButton_case1.Size = new Size(14, 13);
             radioButton_case1.TabIndex = 14;
             radioButton_case1.TabStop = true;
             radioButton_case1.UseVisualStyleBackColor = true;
@@ -318,18 +325,19 @@
             // radioButton_case2
             // 
             radioButton_case2.AutoSize = true;
-            radioButton_case2.Location = new Point(743, 101);
+            radioButton_case2.Location = new Point(650, 76);
+            radioButton_case2.Margin = new Padding(3, 2, 3, 2);
             radioButton_case2.Name = "radioButton_case2";
-            radioButton_case2.Size = new Size(17, 16);
+            radioButton_case2.Size = new Size(14, 13);
             radioButton_case2.TabIndex = 15;
             radioButton_case2.UseVisualStyleBackColor = true;
             // 
             // AddCustomerForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1139, 605);
+            ClientSize = new Size(997, 454);
             Controls.Add(radioButton_case2);
             Controls.Add(radioButton_case1);
             Controls.Add(txt_notice);
@@ -346,6 +354,8 @@
             Controls.Add(label2);
             Controls.Add(txt_name);
             Controls.Add(label1);
+            Margin = new Padding(3, 2, 3, 2);
+            MinimizeBox = false;
             Name = "AddCustomerForm";
             Text = "Add customer";
             ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).EndInit();
