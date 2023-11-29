@@ -21,16 +21,6 @@ namespace CarApp
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btn_submit_Click(object sender, EventArgs e)
         {
             String username = txtb_username.Text.Trim();

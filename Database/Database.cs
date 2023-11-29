@@ -10,7 +10,7 @@ namespace CarApp.Database
     
     internal class Database
     {
-        private static String connectString = @"Data Source=LAPTOP-BQ1B87CK; Integrated Security=true;Database=CarApp";
+        private static String connectString = @"Data Source=DESKTOP-8J6SM7E; Integrated Security=true;Database=CarApp";
         private static SqlConnection conn = null;
 
         public static SqlConnection GetDatabase()

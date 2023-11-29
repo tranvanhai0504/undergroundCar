@@ -51,14 +51,15 @@
             splitContainer1.Dock = DockStyle.Fill;
             splitContainer1.IsSplitterFixed = true;
             splitContainer1.Location = new Point(0, 0);
+            splitContainer1.Margin = new Padding(3, 2, 3, 2);
             splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
             // 
             splitContainer1.Panel1.BackColor = Color.White;
             splitContainer1.Panel1.Controls.Add(flowLayoutPanel1);
-            splitContainer1.Size = new Size(1408, 769);
-            splitContainer1.SplitterDistance = 216;
+            splitContainer1.Size = new Size(1232, 577);
+            splitContainer1.SplitterDistance = 189;
             splitContainer1.TabIndex = 0;
             // 
             // flowLayoutPanel1
@@ -74,17 +75,19 @@
             flowLayoutPanel1.Dock = DockStyle.Fill;
             flowLayoutPanel1.FlowDirection = FlowDirection.TopDown;
             flowLayoutPanel1.Location = new Point(0, 0);
+            flowLayoutPanel1.Margin = new Padding(3, 2, 3, 2);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(216, 769);
+            flowLayoutPanel1.Size = new Size(189, 577);
             flowLayoutPanel1.TabIndex = 1;
             // 
             // pictureBox1
             // 
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(3, 3);
+            pictureBox1.Location = new Point(3, 2);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(210, 184);
+            pictureBox1.Size = new Size(184, 138);
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
             // 
@@ -95,10 +98,10 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
             button1.ForeColor = Color.FromArgb(0, 91, 65);
-            button1.Location = new Point(3, 240);
-            button1.Margin = new Padding(3, 50, 3, 3);
+            button1.Location = new Point(3, 180);
+            button1.Margin = new Padding(3, 38, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(210, 63);
+            button1.Size = new Size(184, 47);
             button1.TabIndex = 2;
             button1.Text = "Trang chủ";
             button1.UseVisualStyleBackColor = true;
@@ -111,9 +114,10 @@
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
             button2.ForeColor = Color.FromArgb(0, 91, 65);
-            button2.Location = new Point(3, 309);
+            button2.Location = new Point(3, 231);
+            button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
-            button2.Size = new Size(210, 63);
+            button2.Size = new Size(184, 47);
             button2.TabIndex = 3;
             button2.Text = "Tạo đơn thuê";
             button2.UseVisualStyleBackColor = true;
@@ -126,9 +130,10 @@
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
             button3.ForeColor = Color.FromArgb(0, 91, 65);
-            button3.Location = new Point(3, 378);
+            button3.Location = new Point(3, 282);
+            button3.Margin = new Padding(3, 2, 3, 2);
             button3.Name = "button3";
-            button3.Size = new Size(210, 63);
+            button3.Size = new Size(184, 47);
             button3.TabIndex = 4;
             button3.Text = "Quản lí xe";
             button3.UseVisualStyleBackColor = true;
@@ -141,9 +146,10 @@
             button4.FlatStyle = FlatStyle.Flat;
             button4.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
             button4.ForeColor = Color.FromArgb(0, 91, 65);
-            button4.Location = new Point(3, 447);
+            button4.Location = new Point(3, 333);
+            button4.Margin = new Padding(3, 2, 3, 2);
             button4.Name = "button4";
-            button4.Size = new Size(210, 63);
+            button4.Size = new Size(184, 47);
             button4.TabIndex = 5;
             button4.Text = "Quản lí khách hàng";
             button4.UseVisualStyleBackColor = true;
@@ -153,9 +159,10 @@
             // 
             panel1.Controls.Add(button5);
             panel1.Dock = DockStyle.Fill;
-            panel1.Location = new Point(3, 516);
+            panel1.Location = new Point(3, 384);
+            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(210, 250);
+            panel1.Size = new Size(184, 188);
             panel1.TabIndex = 6;
             // 
             // button5
@@ -166,9 +173,10 @@
             button5.FlatStyle = FlatStyle.Flat;
             button5.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
             button5.ForeColor = Color.FromArgb(0, 91, 65);
-            button5.Location = new Point(0, 187);
+            button5.Location = new Point(0, 141);
+            button5.Margin = new Padding(3, 2, 3, 2);
             button5.Name = "button5";
-            button5.Size = new Size(210, 63);
+            button5.Size = new Size(184, 47);
             button5.TabIndex = 6;
             button5.Text = "Đăng xuất";
             button5.UseVisualStyleBackColor = true;
@@ -176,10 +184,12 @@
             // 
             // MainForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1408, 769);
+            ClientSize = new Size(1232, 577);
             Controls.Add(splitContainer1);
+            Margin = new Padding(3, 2, 3, 2);
+            MaximizeBox = false;
             Name = "MainForm";
             Text = "AppCar";
             Load += Form1_Load;

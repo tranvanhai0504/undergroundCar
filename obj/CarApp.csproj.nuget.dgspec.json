@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\CarApp\\CarApp.csproj": {}
+    "D:\\TDTU\\dotNet\\GK\\undergroundCar\\CarApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\CarApp\\CarApp.csproj": {
+    "D:\\TDTU\\dotNet\\GK\\undergroundCar\\CarApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\CarApp\\CarApp.csproj",
+        "projectUniqueName": "D:\\TDTU\\dotNet\\GK\\undergroundCar\\CarApp.csproj",
         "projectName": "CarApp",
-        "projectPath": "C:\\Users\\user\\source\\repos\\CarApp\\CarApp.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\CarApp\\obj\\",
+        "projectPath": "D:\\TDTU\\dotNet\\GK\\undergroundCar\\CarApp.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\TDTU\\dotNet\\GK\\undergroundCar\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,6 +49,10 @@
               "target": "Package",
               "version": "[0.1.0, )"
             },
+            "Guna.UI2.WinForms": {
+              "target": "Package",
+              "version": "[2.0.4.5, )"
+            },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[5.1.2, )"
@@ -64,9 +73,9 @@
               "target": "Package",
               "version": "[6.2.0, )"
             },
-            "UI2.Guna.Winforms": {
+            "WinForms.DataVisualization": {
               "target": "Package",
-              "version": "[2.0.4.9, )"
+              "version": "[1.9.1, )"
             }
           },
           "imports": [
@@ -88,7 +97,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

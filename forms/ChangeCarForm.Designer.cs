@@ -68,13 +68,14 @@
             txt_name.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             txt_name.ForeColor = Color.FromArgb(0, 91, 65);
             txt_name.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txt_name.Location = new Point(60, 90);
+            txt_name.Location = new Point(52, 68);
+            txt_name.Margin = new Padding(3, 2, 3, 2);
             txt_name.Name = "txt_name";
             txt_name.PasswordChar = '\0';
             txt_name.PlaceholderText = "Nhập tên xe";
             txt_name.SelectedText = "";
             txt_name.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            txt_name.Size = new Size(986, 45);
+            txt_name.Size = new Size(863, 34);
             txt_name.TabIndex = 15;
             // 
             // label1
@@ -83,9 +84,9 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI Semibold", 12.2F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.FromArgb(0, 91, 65);
-            label1.Location = new Point(60, 49);
+            label1.Location = new Point(52, 37);
             label1.Name = "label1";
-            label1.Size = new Size(74, 30);
+            label1.Size = new Size(59, 23);
             label1.TabIndex = 17;
             label1.Text = "Tên xe";
             // 
@@ -95,9 +96,9 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI Semibold", 12.2F, FontStyle.Bold, GraphicsUnit.Point);
             label2.ForeColor = Color.FromArgb(0, 91, 65);
-            label2.Location = new Point(60, 148);
+            label2.Location = new Point(52, 111);
             label2.Name = "label2";
-            label2.Size = new Size(92, 30);
+            label2.Size = new Size(75, 23);
             label2.TabIndex = 19;
             label2.Text = "Hãng xe";
             // 
@@ -114,13 +115,14 @@
             txt_brand.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             txt_brand.ForeColor = Color.FromArgb(0, 91, 65);
             txt_brand.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txt_brand.Location = new Point(60, 189);
+            txt_brand.Location = new Point(52, 142);
+            txt_brand.Margin = new Padding(3, 2, 3, 2);
             txt_brand.Name = "txt_brand";
             txt_brand.PasswordChar = '\0';
             txt_brand.PlaceholderText = "Nhập hãng xe";
             txt_brand.SelectedText = "";
             txt_brand.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            txt_brand.Size = new Size(408, 45);
+            txt_brand.Size = new Size(357, 34);
             txt_brand.TabIndex = 18;
             // 
             // label3
@@ -129,9 +131,9 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI Semibold", 12.2F, FontStyle.Bold, GraphicsUnit.Point);
             label3.ForeColor = Color.FromArgb(0, 91, 65);
-            label3.Location = new Point(529, 148);
+            label3.Location = new Point(463, 111);
             label3.Name = "label3";
-            label3.Size = new Size(80, 30);
+            label3.Size = new Size(64, 23);
             label3.TabIndex = 20;
             label3.Text = "Loại xe";
             // 
@@ -141,9 +143,9 @@
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Segoe UI Semibold", 12.2F, FontStyle.Bold, GraphicsUnit.Point);
             label4.ForeColor = Color.FromArgb(0, 91, 65);
-            label4.Location = new Point(529, 255);
+            label4.Location = new Point(463, 191);
             label4.Name = "label4";
-            label4.Size = new Size(149, 30);
+            label4.Size = new Size(121, 23);
             label4.TabIndex = 21;
             label4.Text = "Loại nhiên liệu";
             // 
@@ -153,9 +155,9 @@
             label5.BackColor = Color.Transparent;
             label5.Font = new Font("Segoe UI Semibold", 12.2F, FontStyle.Bold, GraphicsUnit.Point);
             label5.ForeColor = Color.FromArgb(0, 91, 65);
-            label5.Location = new Point(60, 255);
+            label5.Location = new Point(52, 191);
             label5.Name = "label5";
-            label5.Size = new Size(115, 30);
+            label5.Size = new Size(92, 23);
             label5.TabIndex = 22;
             label5.Text = "Giá cơ bản";
             // 
@@ -171,17 +173,19 @@
             guna2ComboBox.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
             guna2ComboBox.ForeColor = Color.FromArgb(0, 91, 65);
             guna2ComboBox.ItemHeight = 30;
-            guna2ComboBox.Location = new Point(529, 189);
+            guna2ComboBox.Location = new Point(463, 142);
+            guna2ComboBox.Margin = new Padding(3, 2, 3, 2);
             guna2ComboBox.Name = "guna2ComboBox";
             guna2ComboBox.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            guna2ComboBox.Size = new Size(517, 36);
+            guna2ComboBox.Size = new Size(453, 36);
             guna2ComboBox.TabIndex = 25;
             // 
             // flowLayoutPanel_fuel
             // 
-            flowLayoutPanel_fuel.Location = new Point(529, 298);
+            flowLayoutPanel_fuel.Location = new Point(463, 224);
+            flowLayoutPanel_fuel.Margin = new Padding(3, 2, 3, 2);
             flowLayoutPanel_fuel.Name = "flowLayoutPanel_fuel";
-            flowLayoutPanel_fuel.Size = new Size(517, 45);
+            flowLayoutPanel_fuel.Size = new Size(452, 34);
             flowLayoutPanel_fuel.TabIndex = 26;
             // 
             // guna2Button1
@@ -195,10 +199,11 @@
             guna2Button1.FillColor = Color.FromArgb(0, 91, 65);
             guna2Button1.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             guna2Button1.ForeColor = Color.White;
-            guna2Button1.Location = new Point(821, 417);
+            guna2Button1.Location = new Point(718, 313);
+            guna2Button1.Margin = new Padding(3, 2, 3, 2);
             guna2Button1.Name = "guna2Button1";
             guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            guna2Button1.Size = new Size(225, 56);
+            guna2Button1.Size = new Size(197, 42);
             guna2Button1.TabIndex = 27;
             guna2Button1.Text = "Lưu";
             guna2Button1.Click += guna2Button1_Click;
@@ -209,11 +214,12 @@
             txt_price.BorderRadius = 10;
             txt_price.CustomizableEdges = customizableEdges9;
             txt_price.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            txt_price.Location = new Point(60, 298);
+            txt_price.Location = new Point(52, 224);
+            txt_price.Margin = new Padding(3, 2, 3, 2);
             txt_price.Maximum = new decimal(new int[] { 276447232, 23283, 0, 0 });
             txt_price.Name = "txt_price";
             txt_price.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            txt_price.Size = new Size(408, 45);
+            txt_price.Size = new Size(357, 34);
             txt_price.TabIndex = 28;
             txt_price.UpDownButtonBorderVisible = false;
             txt_price.UpDownButtonFillColor = Color.FromArgb(0, 91, 65);
@@ -229,20 +235,21 @@
             guna2Button2.FillColor = Color.Silver;
             guna2Button2.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             guna2Button2.ForeColor = Color.White;
-            guna2Button2.Location = new Point(529, 417);
+            guna2Button2.Location = new Point(463, 313);
+            guna2Button2.Margin = new Padding(3, 2, 3, 2);
             guna2Button2.Name = "guna2Button2";
             guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            guna2Button2.Size = new Size(225, 56);
+            guna2Button2.Size = new Size(197, 42);
             guna2Button2.TabIndex = 29;
             guna2Button2.Text = "Hủy";
             guna2Button2.Click += guna2Button2_Click;
             // 
             // ChangeCarForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1128, 531);
+            ClientSize = new Size(987, 398);
             Controls.Add(guna2Button2);
             Controls.Add(txt_price);
             Controls.Add(guna2Button1);
@@ -255,6 +262,8 @@
             Controls.Add(txt_brand);
             Controls.Add(label1);
             Controls.Add(txt_name);
+            Margin = new Padding(3, 2, 3, 2);
+            MaximizeBox = false;
             Name = "ChangeCarForm";
             Text = "ChangeCarForm";
             ((System.ComponentModel.ISupportInitialize)txt_price).EndInit();

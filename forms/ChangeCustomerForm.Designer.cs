@@ -55,9 +55,9 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI Semibold", 12.2F, FontStyle.Bold, GraphicsUnit.Point);
             label2.ForeColor = Color.FromArgb(0, 91, 65);
-            label2.Location = new Point(71, 139);
+            label2.Location = new Point(62, 104);
             label2.Name = "label2";
-            label2.Size = new Size(64, 30);
+            label2.Size = new Size(51, 23);
             label2.TabIndex = 23;
             label2.Text = "Email";
             // 
@@ -74,13 +74,14 @@
             txt_email.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             txt_email.ForeColor = Color.FromArgb(0, 91, 65);
             txt_email.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txt_email.Location = new Point(71, 180);
+            txt_email.Location = new Point(62, 135);
+            txt_email.Margin = new Padding(3, 2, 3, 2);
             txt_email.Name = "txt_email";
             txt_email.PasswordChar = '\0';
             txt_email.PlaceholderText = "Nhập email";
             txt_email.SelectedText = "";
             txt_email.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            txt_email.Size = new Size(986, 45);
+            txt_email.Size = new Size(863, 34);
             txt_email.TabIndex = 22;
             // 
             // label1
@@ -89,9 +90,9 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI Semibold", 12.2F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.FromArgb(0, 91, 65);
-            label1.Location = new Point(71, 40);
+            label1.Location = new Point(62, 30);
             label1.Name = "label1";
-            label1.Size = new Size(162, 30);
+            label1.Size = new Size(131, 23);
             label1.TabIndex = 21;
             label1.Text = "Tên khách hàng";
             // 
@@ -108,13 +109,14 @@
             txt_name.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             txt_name.ForeColor = Color.FromArgb(0, 91, 65);
             txt_name.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txt_name.Location = new Point(71, 81);
+            txt_name.Location = new Point(62, 61);
+            txt_name.Margin = new Padding(3, 2, 3, 2);
             txt_name.Name = "txt_name";
             txt_name.PasswordChar = '\0';
             txt_name.PlaceholderText = "Nhập tên khách hàng";
             txt_name.SelectedText = "";
             txt_name.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            txt_name.Size = new Size(986, 45);
+            txt_name.Size = new Size(863, 34);
             txt_name.TabIndex = 20;
             // 
             // label3
@@ -123,9 +125,9 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI Semibold", 12.2F, FontStyle.Bold, GraphicsUnit.Point);
             label3.ForeColor = Color.FromArgb(0, 91, 65);
-            label3.Location = new Point(71, 243);
+            label3.Location = new Point(62, 182);
             label3.Name = "label3";
-            label3.Size = new Size(139, 30);
+            label3.Size = new Size(111, 23);
             label3.TabIndex = 25;
             label3.Text = "Số điện thoại";
             // 
@@ -142,13 +144,14 @@
             txt_phone.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             txt_phone.ForeColor = Color.FromArgb(0, 91, 65);
             txt_phone.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txt_phone.Location = new Point(71, 284);
+            txt_phone.Location = new Point(62, 213);
+            txt_phone.Margin = new Padding(3, 2, 3, 2);
             txt_phone.Name = "txt_phone";
             txt_phone.PasswordChar = '\0';
             txt_phone.PlaceholderText = "Nhập số điện thoại";
             txt_phone.SelectedText = "";
             txt_phone.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            txt_phone.Size = new Size(986, 45);
+            txt_phone.Size = new Size(863, 34);
             txt_phone.TabIndex = 24;
             // 
             // label4
@@ -157,9 +160,9 @@
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Segoe UI Semibold", 12.2F, FontStyle.Bold, GraphicsUnit.Point);
             label4.ForeColor = Color.FromArgb(0, 91, 65);
-            label4.Location = new Point(71, 346);
+            label4.Location = new Point(62, 260);
             label4.Name = "label4";
-            label4.Size = new Size(77, 30);
+            label4.Size = new Size(62, 23);
             label4.TabIndex = 27;
             label4.Text = "Địa chỉ";
             // 
@@ -176,13 +179,14 @@
             txt_address.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             txt_address.ForeColor = Color.FromArgb(0, 91, 65);
             txt_address.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txt_address.Location = new Point(71, 387);
+            txt_address.Location = new Point(62, 290);
+            txt_address.Margin = new Padding(3, 2, 3, 2);
             txt_address.Name = "txt_address";
             txt_address.PasswordChar = '\0';
             txt_address.PlaceholderText = "Nhập địa chỉ";
             txt_address.SelectedText = "";
             txt_address.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            txt_address.Size = new Size(986, 45);
+            txt_address.Size = new Size(863, 34);
             txt_address.TabIndex = 26;
             // 
             // bnt_submit
@@ -196,20 +200,21 @@
             bnt_submit.FillColor = Color.FromArgb(0, 91, 65);
             bnt_submit.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             bnt_submit.ForeColor = Color.White;
-            bnt_submit.Location = new Point(842, 463);
+            bnt_submit.Location = new Point(737, 347);
+            bnt_submit.Margin = new Padding(3, 2, 3, 2);
             bnt_submit.Name = "bnt_submit";
             bnt_submit.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            bnt_submit.Size = new Size(225, 56);
+            bnt_submit.Size = new Size(197, 42);
             bnt_submit.TabIndex = 28;
             bnt_submit.Text = "Lưu";
             bnt_submit.Click += bnt_submit_Click;
             // 
             // ChangeCustomerForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1128, 546);
+            ClientSize = new Size(987, 410);
             Controls.Add(bnt_submit);
             Controls.Add(label4);
             Controls.Add(txt_address);
@@ -219,6 +224,8 @@
             Controls.Add(txt_email);
             Controls.Add(label1);
             Controls.Add(txt_name);
+            Margin = new Padding(3, 2, 3, 2);
+            MinimizeBox = false;
             Name = "ChangeCustomerForm";
             Text = "ChangeCustomerForm";
             ResumeLayout(false);

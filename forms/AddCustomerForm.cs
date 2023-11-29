@@ -45,7 +45,7 @@ namespace CarApp.forms
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            if(radioButton_case1.Checked)
+            if (radioButton_case1.Checked)
             {
                 //case add new user
                 string name = txt_name.Text;
@@ -53,7 +53,8 @@ namespace CarApp.forms
                 string email = txt_mail.Text;
                 string address = txt_address.Text;
 
-                if (new List<String>() { name, phone, email, address}.Contains(String.Empty)) { 
+                if (new List<String>() { name, phone, email, address }.Contains(String.Empty))
+                {
                     MessageBox.Show("Vui lòng nhập đầy đủ thông tin", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
